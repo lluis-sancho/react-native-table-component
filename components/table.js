@@ -20,7 +20,7 @@ export class Table extends Component {
     const { borderStyle } = this.props;
     const borderLeftWidth = (borderStyle && borderStyle.borderWidth) || 1;
     const borderBottomWidth = borderLeftWidth;
-    const borderColor = (borderStyle && borderStyle.borderColor) || '#000';
+    const borderColor = (borderStyle && borderStyle.borderColor) || '#FFC266';
 
     return (
       <View
